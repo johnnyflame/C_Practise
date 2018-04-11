@@ -1,0 +1,3 @@
+SRC:=src
+BIN:=obj
+
