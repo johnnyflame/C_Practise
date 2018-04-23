@@ -34,12 +34,16 @@ void fahrenheit_to_celsius(){
 void celsius_to_fahrenheit(int lower, int upper,int increment){
     int fahr, celsius;
 
+    printf("********************************************\n");
+    printf("**********CELSIUS-FAHRENHEIT-CONVERTER******\n");
+    printf("********************************************\n");
+
+
     for(celsius=lower; celsius <= upper; celsius+=increment)
     {
       fahr = (celsius * 9 / 5) + 32;
       printf("%d\t%d\n", celsius, fahr);
     }
-
 }
 
 
