@@ -91,10 +91,35 @@ void blank_space_replacer(){
 }
 
 
+/**
+ * Ex 1-10
+ * Copies input to output, replaces tabs, space, and backslash with visible characters.
+ *
+ */
+
+void visible_escape_sequences(){
+    int c;
+
+    while ((c = getchar())!=EOF){
+        if (c == '\t'){
+            putchar('\\');
+            putchar('t');
+        }else if(c == '\\'){
+            putchar('\\');
+            putchar('\\');
+        }else if (c == '\b'){
+            putchar('\l');
+            putchar('b');
+        }else{
+            putchar(c);
+        }
+    }
+}
+
+
+
 
 int main(){
-    //   line_counter();
-
-    blank_space_replacer();
+    visible_escape_sequences();
     return 0;
 }
