@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+
+
+/**
+ * Ex 2.1
+ *
+ * Write a program to determine the range of char, short, int and long. Both
+ * signed and unsigned, by printing the appropriate values from standard headers
+ * and direct computation.
+ *
+ * Optional: compute range of various floating point types
+ */
+
+void print_size_limit(){
+
+char a;
+short b;
+int c;
+long d;
+
+unsigned char e;
+unsigned short f;
+unsigned int g;
+unsigned long h;
+
+
+printf("");
+
+}
+
+
+
+int main(){
+return 0;
+}
